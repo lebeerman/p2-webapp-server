@@ -1,0 +1,33 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Front End",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lebeerman/p2-webapp-server.git"
+  },
+  "author": "dan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lebeerman/p2-webapp-server/issues"
+  },
+  "homepage": "https://github.com/lebeerman/p2-webapp-server#readme",
+  "keywords": [
+    "server",
+    "for",
+    "p2",
+    "app"
+  ],
+  "devDependencies": {
+    "express": "4.16.2"
+  }
+}
