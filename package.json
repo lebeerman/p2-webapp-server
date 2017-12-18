@@ -4,7 +4,8 @@
   "description": "Front End",
   "main": "server.js",
   "directories": {
-    "test": "test"
+    "test": "test",
+    "data": "data"
   },
   "scripts": {
     "test": "test",
@@ -28,6 +29,9 @@
     "app"
   ],
   "devDependencies": {
+    "express": "4.16.2"
+  },
+  "dependencies": {
     "express": "4.16.2"
   }
 }
