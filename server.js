@@ -3,7 +3,7 @@ const cors = require('cors');
 const app = express();
 const data = require('./data/data');
 
-// app.use(cors);
+app.use(cors());
 
 app.get('/', (req, res) => res.json(data));
 
