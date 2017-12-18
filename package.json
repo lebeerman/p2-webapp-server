@@ -29,6 +29,7 @@
   },
   "dependencies": {
     "cors": "2.8.4",
-    "express": "4.16.2"
+    "express": "4.16.2",
+    "nodemon": "1.13.3"
   }
 }
