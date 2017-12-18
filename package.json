@@ -3,10 +3,6 @@
   "version": "1.0.0",
   "description": "Front End",
   "main": "server.js",
-  "directories": {
-    "test": "test",
-    "data": "data"
-  },
   "scripts": {
     "test": "test",
     "start": "node server.js",
@@ -24,7 +20,6 @@
   "homepage": "https://github.com/lebeerman/p2-webapp-server#readme",
   "keywords": [
     "server",
-    "for",
     "p2",
     "app"
   ],
