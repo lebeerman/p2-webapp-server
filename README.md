@@ -1,7 +1,5 @@
 # p2-webapp-server
 
-Front End
-
 # Back End
 
 data sets
@@ -12,5 +10,5 @@ heroku:
   - install nodemon (in package json - add 'dev': 'nodemon filename.js')
   - git ignore!
   - created a data.js file, exported vars.
-  
+
 testing
