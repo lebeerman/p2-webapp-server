@@ -2,7 +2,9 @@ const express = require('express');
 const data = require('./data/data');
 const app = express();
 const path = require('path');
+const cors = require('cors');
 
+app.use(cors);
 
 app.get('/', (req, res) => res.json(data));
 
