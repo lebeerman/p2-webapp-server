@@ -62,7 +62,7 @@ function createUserData(title, note, latAndLong, markerT) {
   console.dir(data.toolTip[data.toolTip.length - 1]);
   data.markerInfo.push({
     id: data.markerInfo.length + 1,
-    latLong: latAndLong.split(", ").map(item => parseFloat(item)),
+    latLong: latAndLong.split(",").map(item => parseFloat(item)),
     markerType: markerT
   });
   console.dir(data.markerInfo[data.markerInfo.length - 1]);
