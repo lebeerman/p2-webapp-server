@@ -24,7 +24,10 @@ app.post("/", (req, res) => {
   let markerType = req.body.data.markerType;
   console.dir(req.body.data.locationTitle);
   createUserData(title, note, latAndLong, markerType);
-  res.json({ success: true });
+  res.json({ 
+    success: true,
+    message: 'Check the map for your Marker!'
+  });
 });
 
 app.use(notFound);
